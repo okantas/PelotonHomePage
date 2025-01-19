@@ -5,15 +5,23 @@ export default function HeroSection() {
   return (
     <main>
       <Header />
-      <div className="bg-[url('/HeroImg.svg')] bg-cover bg-center w-full h-screen shadow-[10px_10px_30px_rgba(0,0,0,1)] ">
-        <div>
-          <p>$150 off packages</p>
-          <h1>Spring training savings</h1>
-          <p>
+
+      <div
+        className="h-screen w-full bg-cover bg-center shadow-2xl"
+        style={{
+          backgroundImage: "url('/HeroImg.svg')",
+        }}
+      >
+        <div className="absolute gap-4 flex flex-col h-screen items-start justify-center pl-20">
+          <p className="font-bold text-sm text-white">$150 off packages</p>
+          <h1 className="font-bold text-5xl text-white">
+            Spring training savings
+          </h1>
+          <p className="text-2xl text-white font-thin w-2/4">
             Limited-time offer! Build strength this spring with a Peloton Guide
             Package and get $150 off.**
           </p>
-        </div>{" "}
+        </div>
       </div>
     </main>
   );

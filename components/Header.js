@@ -7,7 +7,7 @@ import Human from "../public/humanIcon.svg";
 
 export default function Header() {
   return (
-    <main className="flex absolute w-full  justify-between items-center py-2 px-8 max-w-full  ">
+    <main className=" z-10 flex absolute w-full  justify-between items-center py-2 px-8 max-w-full  ">
       <div>
         <Image src={Logo} alt="Logo" />
       </div>
