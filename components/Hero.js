@@ -13,7 +13,7 @@ export default function HeroSection() {
         }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="absolute gap-4 flex flex-col h-screen items-start justify-center pl-20">
+        <div className="absolute gap-6 flex flex-col h-screen items-start justify-center pl-20">
           <p className="font-bold text-sm text-white tracking-widest">
             $150 OFF PACKAGES
           </p>
@@ -24,6 +24,12 @@ export default function HeroSection() {
             Limited-time offer! Build strength this spring with a Peloton Guide
             Package and get $150 off.**
           </p>
+
+          <a className="border border-solid border-red-600 px-16 py-3 bg-red-800 rounded-md text-white text-sm ">
+            SHOP GUIDE
+          </a>
+
+          <p>Peloton Guide Membership separate</p>
         </div>
       </div>
     </main>
