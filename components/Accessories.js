@@ -11,8 +11,8 @@ import Apparel from "@/public/Apparel.svg";
 export default function Accessories() {
   return (
     <main>
-      <div className="py-14 px-20">
-        <div className=" shadow-black shadow-sm w-36 h-44 rounded-md">
+      <div className="py-14 px-20 w-full bg-[#F5F7F9]">
+        <div className=" shadow-black  w-36 h-44 rounded-md bg-white">
           <Image src={Row} alt="row" className="relative  right-6" />
           <p className="relative right-3 font-bold text-right text-slate-500">
             Row
