@@ -9,17 +9,17 @@ export default function Header() {
   return (
     <main className=" z-10 flex absolute w-full  justify-between items-center py-2 px-8 max-w-full  ">
       <div>
-        <Image src={Logo} alt="Logo" />
+        <Image src={Logo} alt="Logo" className="cursor-pointer" />
       </div>
 
-      <ul className="flex justify-center gap-x-9 font-bold text-white text-xs">
-        <li>Bikes</li>
-        <li>Tread</li>
-        <li>Strength</li>
-        <li>Row</li>
-        <li>App</li>
-        <li>Accessories</li>
-        <li>Apparel</li>
+      <ul className="flex justify-center gap-x-9 font-bold text-white text-sm tracking-widest">
+        <li className="cursor-pointer">Bikes</li>
+        <li className="cursor-pointer">Tread</li>
+        <li className="cursor-pointer">Strength</li>
+        <li className="cursor-pointer">Row</li>
+        <li className="cursor-pointer">App</li>
+        <li className="cursor-pointer">Accessories</li>
+        <li className="cursor-pointer">Apparel</li>
       </ul>
 
       <div className="flex gap-6">
