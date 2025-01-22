@@ -14,6 +14,14 @@ export default function Classes() {
             Guide, and the Peloton App.
           </p>
         </div>
+        <div className="flex gap-4 mt-10">
+          <a className="flex bg-[#DF1C2F] border-2 border-solid border-[#DF1C2F]  text-xs justify-center items-center text-white w-60 h-10 rounded-md cursor-pointer tracking-widest">
+            EXPLORE CLASSES
+          </a>
+          <a className=" flex bg-white border-2 border-solid border-black text-xs justify-center items-center w-60 h-10 rounded-md cursor-pointer tracking-widest">
+            GET THE APP
+          </a>
+        </div>
       </div>
     </main>
   );
