@@ -25,7 +25,7 @@ export default function Accessories() {
   ];
   return (
     <main>
-      <div className="flex gap-10 py-14 px-20 w-full bg-[#F5F7F9]">
+      <div className="flex gap-10 items-center justify-center py-14 px-20 w-full bg-[#F5F7F9]">
         {Pictures.map((picture) => (
           <div
             className=" shadow-black  w-36 h-44 rounded-md bg-white"
