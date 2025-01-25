@@ -22,6 +22,7 @@ export default function TrainingVideos() {
         pagination={{ clickable: true }}
         spaceBetween={20}
         slidesPerView={5}
+        className="mb-12"
       >
         <SwiperSlide>
           <Image src={Running} width={280} height={200} alt="running" />
