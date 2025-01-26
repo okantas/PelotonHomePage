@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Accessories from "@/components/Accessories";
 import Classes from "@/components/Classes";
 import TrainingVideos from "@/components/TrainingVideos";
+import QuizSection from "@/components/QuizSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Accessories />
         <Classes />
         <TrainingVideos />
+        <QuizSection />
       </div>
     </>
   );
