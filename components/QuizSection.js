@@ -4,7 +4,7 @@ import Desktop from "@/public/desktop.svg";
 
 export default function QuizSection() {
   return (
-    <main>
+    <main className="px-20">
       <div className="flex justify-center gap-40">
         <Image src={Desktop} alt="desktop" />
         <div className="flex flex-col gap-4 justify-center">
