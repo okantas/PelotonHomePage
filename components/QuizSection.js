@@ -5,7 +5,7 @@ import Desktop from "@/public/desktop.svg";
 export default function QuizSection() {
   return (
     <main className="px-20">
-      <div className="flex justify-center gap-40">
+      <div className="flex justify-center gap-40 py-40">
         <Image src={Desktop} alt="desktop" />
         <div className="flex flex-col gap-4 justify-center">
           <p className="font-bold text-xs">Find your class match</p>
