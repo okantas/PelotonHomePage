@@ -12,7 +12,7 @@ export default function QuizSection() {
           <h1 className=" font-thin text-3xl">
             Get personalized class recommendations based on your fitness goals
           </h1>
-          <a className="font-bold text-cs border border-solid rounded-md border-black w-60 text-center p-2">
+          <a className="font-bold text-cs border border-solid rounded-md border-black w-60 text-center p-2 cursor-pointer">
             Take Quiz
           </a>
         </div>
