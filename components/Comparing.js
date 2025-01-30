@@ -1,4 +1,5 @@
 import React from "react";
+import bikes from "@/public/bikes.svg";
 
 export default function Comparing() {
   return (
