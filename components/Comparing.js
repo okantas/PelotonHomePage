@@ -1,5 +1,5 @@
 import React from "react";
-import bikes from "@/public/bikes.svg";
+import bikes from "@/public/compareBikes.svg";
 import Image from "next/image";
 
 export default function Comparing() {
