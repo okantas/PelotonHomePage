@@ -6,9 +6,7 @@ export default function Comparing() {
   return (
     <main>
       <div>
-        <Image alt="bikes">
-          <bikes />
-        </Image>
+        <Image src={bikes} alt="bikes" />
         <div>
           <div>birinci kutu</div>
           <div>İkinci kutu</div>
