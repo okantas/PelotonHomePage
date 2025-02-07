@@ -6,7 +6,15 @@ export default function Comparing() {
   return (
     <main>
       <div>
-        <Image src={bikes} alt="bikes" />
+        <div className="relative w-4/12 h-50">
+          <Image
+            src={bikes}
+            alt="bikes"
+            className="w-full h-screen object-cover"
+          />
+          <div className="absolute bg-black w-full h-screen"></div>
+        </div>
+
         <div>
           <div>birinci kutu</div>
           <div>İkinci kutu</div>
