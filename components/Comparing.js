@@ -6,7 +6,7 @@ export default function Comparing() {
   return (
     <main>
       <div>
-        <div className="relative w-4/12 h-50">
+        <div className="relative w-4/12 h-60">
           <Image
             src={bikes}
             alt="bikes"
