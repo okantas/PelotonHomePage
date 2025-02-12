@@ -17,7 +17,7 @@ export default function Comparing() {
           />
         </div>
 
-        <div>
+        <div className="flex flex-col gap-[20px]">
           <div className="relative w-[600px] h-[440px] bg-black">
             birinci kutu
           </div>
