@@ -25,6 +25,19 @@ export default function others() {
       rightButton: "Explore Tread",
       rightPhoto: Tread,
     },
+    {
+      id: 2,
+      leftName: "PELOTON GUIDE",
+      message: "Reach your goals with a personal guide to strength training",
+      leftPhoto: GuideBg,
+      leftButton: "SHOP NOW",
+      rightName: "Peloton Guide",
+      price: "$195",
+      monthly:
+        "Peloton Guide Membership separate: $24/mo for Guide-only Members. No additional fee for All-Access Members.",
+      rightButton: "Explore Guide",
+      rightPhoto: Guide,
+    },
   ];
 
   return (
