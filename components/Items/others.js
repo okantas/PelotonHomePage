@@ -8,7 +8,6 @@ import Row from "@/public/pelotonRow.svg";
 import RowBg from "@/public/pelotonRowBg.svg";
 import Tread from "@/public/pelotonTread.svg";
 import TreadBg from "@/public/pelotonTreadBg.svg";
-import { Princess_Sofia } from "next/font/google";
 
 export default function others() {
   const Items = [
@@ -37,6 +36,19 @@ export default function others() {
         "Peloton Guide Membership separate: $24/mo for Guide-only Members. No additional fee for All-Access Members.",
       rightButton: "Explore Guide",
       rightPhoto: Guide,
+    },
+    {
+      id: 3,
+      leftName: "PELOTON ROW",
+      message: "Work 86% of your muscles in just 15 minutes",
+      leftPhoto: RowBg,
+      leftButton: "SHOP NOW",
+      rightName: "Peloton Row",
+      price: "$3,195",
+      monthly:
+        "Peloton All-Access Membership ($44/mo) required to access Peloton content.",
+      rightButton: "Explore Row",
+      rightPhoto: Row,
     },
   ];
 
