@@ -7,11 +7,23 @@ export default function Comparing() {
     <main>
       <div className="flex justify-center gap-[20px]">
         <div
-          className="relative w-[588px] "
+          className="relative flex items-end w-[588px] h-[856px] "
           style={{ backgroundImage: "url('/compareBikes.svg')" }}
         >
           <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
-          <h1 className=" ">Peloton Bike and Bike+</h1>
+          <div className="absolute flex flex-col gap-4 text-white pl-8 pb-10">
+            <p className="font-bold  ">PELOTON BIKE AND BIKE+</p>
+            <h1 className="font-thin text-[36px] ">
+              Switch up your routine <br /> with a variety of workouts
+            </h1>
+            <a
+              href="https://www.google.com/"
+              target="_blank"
+              className="font-bold border border-white border-solid "
+            >
+              COMPARE BIKES
+            </a>
+          </div>
         </div>
 
         <div className="flex flex-col gap-[20px]">
