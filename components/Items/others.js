@@ -50,6 +50,20 @@ export default function others() {
       rightButton: "Explore Row",
       rightPhoto: Row,
     },
+    {
+      id: 4,
+      leftName: "PELOTON APP",
+      message:
+        "Take classes at home, on the go, or at the gym – no equipment needed.",
+      leftPhoto: AppBg,
+      leftButton: "TRY THE APP",
+      rightName: "Peloton Row",
+      price: "$19",
+      monthly:
+        "Get 30 days free, then only $12.99/mo. New App Members only. Terms apply.",
+      rightButton: "GET 30 DAYS FREE",
+      rightPhoto: App,
+    },
   ];
 
   return (
