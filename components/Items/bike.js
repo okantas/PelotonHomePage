@@ -1,6 +1,4 @@
 import React from "react";
-import bikes from "@/public/compareBikes.svg";
-import Image from "next/image";
 
 export default function Comparing() {
   return (
@@ -33,6 +31,7 @@ export default function Comparing() {
           <div className="relative w-[600px] h-[440px] bg-black">
             İkinci kutu
           </div>
+          ,
         </div>
       </div>
     </main>
