@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function others() {
   return (
@@ -21,8 +22,31 @@ export default function others() {
             </div>
           </div>
         </div>
-        <div className="bg-[#FFFFFF] shadow-[0px_32px_54px_-20px_rgba(0,0,0,0.1)] h-[480px] w-[580px]">
-          informations
+        <div className="flex justify-center items-center bg-[#FFFFFF] relative w-[580px] h-[480px] shadow-[0_32px_52px_-20px_rgba(0,0,0,0.1)] rounded-md ">
+          <p className="absolute top-6 left-8 text-[10px] text-[#FFFFFF] font-bold bg-[#D00C2A] px-1 py-[1px] rounded-[4px]">
+            SAVE ON PACKAGES
+          </p>
+          <div className="w-1/2 flex flex-col justify-center items-center">
+            <Image src={null} alt="Peloton Bike Plus" />
+          </div>
+          <div className="w-1/2 flex flex-col gap-2">
+            <h1 className="text-[28px] pb-3 ">arabam</h1>
+            <p className="text-[12px] text-[#65666A]">Starting at</p>
+            <p className="text-[13px] font-bold">param</p>
+            <p className="text-[13px] text-[#65666A]">
+              Pay monthly. Finance starting at 0% APR¹.
+              <br /> <br />
+              Peloton All-Access Membership ($44/mo) required to access Peloton
+              content
+            </p>
+            <a
+              href="https://www.google.com"
+              target="_blank"
+              className="text-[13px] font-bold pt-3 border-b border-black w-max"
+            >
+              butonum
+            </a>
+          </div>
         </div>
       </div>
     </>
