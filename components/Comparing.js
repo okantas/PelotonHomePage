@@ -19,7 +19,7 @@ export default function Comparing() {
             <a
               href="https://www.google.com/"
               target="_blank"
-              className="font-bold border border-white border-solid "
+              className="font-bold border border-white border-solid w-60 py-[10px] text-center rounded-md "
             >
               COMPARE BIKES
             </a>
