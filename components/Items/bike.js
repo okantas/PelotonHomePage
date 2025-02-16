@@ -6,7 +6,7 @@ export default function Comparing() {
       <div className="flex justify-center gap-[20px]">
         <div
           className="relative flex items-end w-[588px] h-[856px] "
-          style={{ backgroundImage: "url('/compareBikes.svg')" }}
+          style={{ backgroundImage: "url('/pelotonBikeBg.svg')" }}
         >
           <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
           <div className="absolute flex flex-col gap-4 text-white pl-8 pb-10">
