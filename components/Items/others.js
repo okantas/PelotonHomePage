@@ -57,7 +57,7 @@ export default function others() {
         "Take classes at home, on the go, or at the gym – no equipment needed.",
       leftPhoto: AppBg,
       leftButton: "TRY THE APP",
-      rightName: "Peloton Row",
+      rightName: "Peloton App",
       price: "$19",
       monthly:
         "Get 30 days free, then only $12.99/mo. New App Members only. Terms apply.",
@@ -72,7 +72,7 @@ export default function others() {
         <div key={item.id} className="flex justify-center gap-[20px]">
           <div
             style={{ backgroundImage: `url(${item.leftPhoto.src})` }}
-            className=" h-[480px] w-[580px]"
+            className=" h-[480px] w-[580px] rounded-md"
           >
             <div className="relative inset-0  h-[480px]  bg-gradient-to-t from-black to-transparent">
               <div className="flex flex-col justify-end h-[480px] gap-4 text-white pl-8 pb-10">
