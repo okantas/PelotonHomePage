@@ -5,7 +5,7 @@ export default function Comparing() {
     <main>
       <div className="flex justify-center gap-[20px]">
         <div
-          className="relative flex items-end w-[588px] h-[856px] "
+          className="relative flex items-end w-[588px] h-[900px] "
           style={{ backgroundImage: "url('/pelotonBikeBg.svg')" }}
         >
           <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
