@@ -5,7 +5,7 @@ export default function Comparing() {
     <main>
       <div className="flex justify-center gap-[20px]">
         <div
-          className="relative flex items-end w-[588px] h-[900px] "
+          className="relative flex items-end w-[588px] h-[900px] rounded-md "
           style={{ backgroundImage: "url('/pelotonBikeBg.svg')" }}
         >
           <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
@@ -24,11 +24,11 @@ export default function Comparing() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-[20px]">
-          <div className="relative w-[600px] h-[440px] bg-slate-700">
+        <div className="flex flex-col gap-[20px] ">
+          <div className="relative w-[600px] h-[440px] shadow-[0_32px_52px_-20px_rgba(0,0,0,0.3)] rounded-md ">
             birinci kutu
           </div>
-          <div className="relative w-[600px] h-[440px] bg-black">
+          <div className="relative w-[600px] h-[440px] shadow-[0_32px_52px_-20px_rgba(0,0,0,0.3)] rounded-md">
             İkinci kutu
           </div>
           ,
