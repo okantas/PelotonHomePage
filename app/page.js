@@ -5,6 +5,7 @@ import Classes from "@/components/Classes";
 import TrainingVideos from "@/components/TrainingVideos";
 import QuizSection from "@/components/QuizSection";
 import Items from "@/components/Items/items";
+import CompareCost from "@/components/CompareCost";
 
 export default function Home() {
   return (
@@ -15,8 +16,8 @@ export default function Home() {
         <Classes />
         <TrainingVideos />
         <QuizSection />
-
         <Items />
+        <CompareCost />
       </div>
     </>
   );
