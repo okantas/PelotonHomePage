@@ -48,7 +48,7 @@ export default function others() {
       monthly:
         "Peloton All-Access Membership ($44/mo) required to access Peloton content.",
       rightButton: "Explore Row",
-      rightPhoto: RowBg,
+      rightPhoto: Row,
     },
     {
       id: 4,
