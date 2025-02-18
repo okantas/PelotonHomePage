@@ -7,6 +7,7 @@ import QuizSection from "@/components/QuizSection";
 import Items from "@/components/Items/items";
 import CompareCost from "@/components/CompareCost";
 import TryApp from "@/components/TryApp";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Items />
         <CompareCost />
         <TryApp />
+        <Footer />
       </div>
     </>
   );
