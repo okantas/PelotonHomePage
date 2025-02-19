@@ -3,6 +3,10 @@ import Image from "next/image";
 import PhoneIcon from "@/public/PhoneIcon.svg";
 import MessageIcon from "@/public/MessageIcon.svg";
 import QuestionMark from "@/public/QuestionMarkIcon.svg";
+import Facebook from "@/public/FaceBookIcon.svg";
+import Instagram from "@/public/InstagramIcon.svg";
+import Twitter from "@/public/TwitterIcon.svg";
+import Youtube from "@/public/YoutubeIcon.svg";
 
 export default function Footer() {
   return (
@@ -94,9 +98,19 @@ export default function Footer() {
                 <p>Visit Support Center</p>
               </div>
             </div>
+
+            <div id="applications" className="flex gap-[16px] pb-10">
+              <Image alt="Instagram" src={Instagram} />
+              <Image alt="Twitter" src={Twitter} />
+              <Image alt="Facebook" src={Facebook} />
+              <Image alt="Youtube" src={Youtube} />
+            </div>
           </div>
         </div>
-        <div></div>
+        <div>
+          <p>Get The Peloton App</p>
+          <div></div>
+        </div>
       </div>
     </>
   );
