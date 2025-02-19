@@ -1,4 +1,8 @@
 import React from "react";
+import Image from "next/image";
+import PhoneIcon from "@/public/PhoneIcon.svg";
+import MessageIcon from "@/public/MessageIcon.svg";
+import QuestionMark from "@/public/QuestionMarkIcon.svg";
 
 export default function Footer() {
   return (
@@ -76,6 +80,20 @@ export default function Footer() {
               For more about how we use your information, see our Privacy
               Policy.
             </p>
+            <div id="contactInformations" className="flex flex-col gap-[10px]">
+              <div className="flex gap-[10px] text-[13px] font-bold">
+                <Image alt="Phone" src={PhoneIcon} />
+                <p>1⁠-⁠866⁠-⁠679⁠-⁠9129</p>
+              </div>
+              <div className="flex gap-[10px] text-[13px] font-bold">
+                <Image alt="Message" src={MessageIcon} />
+                <p>Start a Live Chat</p>
+              </div>
+              <div className="flex gap-[10px] text-[13px] font-bold">
+                <Image alt="QuestionMark" src={QuestionMark} />
+                <p>Visit Support Center</p>
+              </div>
+            </div>
           </div>
         </div>
         <div></div>
