@@ -159,6 +159,12 @@ export default function Footer() {
             <a href="#">
               <li>Cookie Settings</li>
             </a>
+            <a href="#">
+              <li className="font-light">
+                © Peloton 2012-2023, Peloton Interactive, Inc. All rights
+                reserved.
+              </li>
+            </a>
           </ul>
         </div>
       </div>
