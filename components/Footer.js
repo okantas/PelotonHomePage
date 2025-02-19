@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <div>
-        <div>
+        <div className="flex justify-center gap-[200px] pt-10">
           <div className="flex text-[14px] gap-[80px]">
             <div className="flex flex-col gap-[35px]">
               <p>Learn</p>
@@ -53,7 +53,30 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div></div>
+          <div id="rightPart" className="flex flex-col gap-[20px]">
+            <h1 className="font-bold text-[12px]">Sign up to get the latest</h1>
+            <div className="flex gap-[10px]">
+              <input
+                type="text"
+                placeholder="Your E-mail"
+                className="border border-[#888B93] text-base rounded-md py-[17px] pl-[15px] w-[270px]"
+              />
+              <a
+                href="#"
+                className="py-[19px] bg-[#DF1C2F] px-6 text-base font-bold text-white rounded-md"
+              >
+                Submit
+              </a>
+            </div>
+            <p className="text-[12px] text-[#181A1D]">
+              By providing your email address, you agree to receive marketing
+              <br /> communications from Peloton.
+              <br />
+              <br />
+              For more about how we use your information, see our Privacy
+              Policy.
+            </p>
+          </div>
         </div>
         <div></div>
       </div>
