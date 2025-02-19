@@ -11,7 +11,7 @@ import Apple from "@/public/Apple.svg";
 import GooglePlay from "@/public/GooglePlay.svg";
 import Amazon from "@/public/Amazon.svg";
 import Roku from "@/public/Roku.svg";
-import UsaIcon from "@/public/UsaIcon.svg";
+import UsaIcon from "@/public/UsaFlag.svg";
 
 export default function Footer() {
   return (
@@ -131,7 +131,36 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div id="lastOfFooter"></div>
+        <div id="lastOfFooter">
+          <div className="flex gap-5 items-center justify-center tracking-widest">
+            <Image alt="Usa" src={UsaIcon} />
+            <p className="text-[12px] font-bold">United States ($ USD)</p>
+          </div>
+          <ul className="flex text-[13px] gap-5 justify-center text-[#181A1D] py-8">
+            <a href="#">
+              <li>Privacy Policy</li>
+            </a>
+
+            <a href="#">
+              <li>Terms of Service</li>
+            </a>
+            <a href="#">
+              <li>Membership Terms</li>
+            </a>
+            <a href="#">
+              <li>IP Policy</li>
+            </a>
+            <a href="#">
+              <li>Accessibility</li>
+            </a>
+            <a href="#">
+              <li>California Transparency Act</li>
+            </a>
+            <a href="#">
+              <li>Cookie Settings</li>
+            </a>
+          </ul>
+        </div>
       </div>
     </>
   );
