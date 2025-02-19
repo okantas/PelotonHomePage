@@ -7,6 +7,10 @@ import Facebook from "@/public/FaceBookIcon.svg";
 import Instagram from "@/public/InstagramIcon.svg";
 import Twitter from "@/public/TwitterIcon.svg";
 import Youtube from "@/public/YoutubeIcon.svg";
+import Apple from "@/public/Apple.svg";
+import GooglePlay from "@/public/GooglePlay.svg";
+import Amazon from "@/public/Amazon.svg";
+import Roku from "@/public/Roku.svg";
 
 export default function Footer() {
   return (
@@ -99,7 +103,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div id="applications" className="flex gap-[16px] pb-10">
+            <div id="applications" className="flex gap-[16px] pb-20">
               <Image alt="Instagram" src={Instagram} />
               <Image alt="Twitter" src={Twitter} />
               <Image alt="Facebook" src={Facebook} />
@@ -107,9 +111,24 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div>
-          <p>Get The Peloton App</p>
-          <div></div>
+        <div id="stores" className="flex flex-col gap-5 items-center pb-10">
+          <p className="text-[13px] font-bold tracking-wide">
+            Get The Peloton App
+          </p>
+          <div className="flex gap-5">
+            <a href="#">
+              <Image alt="AppleStore" src={Apple} />
+            </a>
+            <a href="#">
+              <Image alt="GoogleStore" src={GooglePlay} />
+            </a>
+            <a href="#">
+              <Image alt="AmazonStore" src={Amazon} />
+            </a>
+            <a href="#">
+              <Image alt="Roku" src={Roku} />
+            </a>
+          </div>
         </div>
       </div>
     </>
