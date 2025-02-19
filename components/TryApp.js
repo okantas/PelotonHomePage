@@ -5,7 +5,7 @@ import TryTheApp from "@/public/TryTheApp.svg";
 export default function TryApp() {
   return (
     <>
-      <div>
+      <div className="flex flex-col justify-center text-center items-center">
         <div className="flex items-center justify-center gap-40 pt-[120px]">
           <div className="flex flex-col gap-[15px]">
             <p className="text-[12px] text-[#181A1D] font-bold">Peloton App</p>
@@ -27,7 +27,7 @@ export default function TryApp() {
             <Image src={TryTheApp} alt="image" />
           </div>
         </div>
-        <div className="text-[13px] text-[#65666A] font-light w-2/3 pt-32 pl-[50px] pb-10">
+        <div className=" text-[13px] text-[#65666A] font-light pt-32 px-[50px] pb-10">
           **All-Access Membership separate for Peloton Bike, Bike+, Tread and
           Row; Guide Membership separate for Peloton Guide. Offer ends April 3,
           2023. Discount of $400 USD applies to purchases of Peloton Bike
