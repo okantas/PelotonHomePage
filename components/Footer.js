@@ -11,6 +11,7 @@ import Apple from "@/public/Apple.svg";
 import GooglePlay from "@/public/GooglePlay.svg";
 import Amazon from "@/public/Amazon.svg";
 import Roku from "@/public/Roku.svg";
+import UsaIcon from "@/public/UsaIcon.svg";
 
 export default function Footer() {
   return (
@@ -130,6 +131,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
+        <div id="lastOfFooter"></div>
       </div>
     </>
   );
