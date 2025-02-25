@@ -27,7 +27,7 @@ export default function TryApp() {
             <Image src={TryTheApp} alt="image" />
           </div>
         </div>
-        <div className=" text-[13px] text-[#65666A] font-light pt-32 px-[100px] pb-10 text-left">
+        <div className="text-[13px] text-[#65666A] font-light pt-32 px-[100px] pb-10 text-left">
           **All-Access Membership separate for Peloton Bike, Bike+, Tread and
           Row; Guide Membership separate for Peloton Guide. Offer ends April 3,
           2023. Discount of $400 USD applies to purchases of Peloton Bike

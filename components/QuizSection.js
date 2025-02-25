@@ -6,7 +6,11 @@ export default function QuizSection() {
   return (
     <main className="px-20">
       <div className="flex justify-center gap-40 py-40">
-        <Image src={Desktop} alt="desktop" />
+        <Image
+          src={Desktop}
+          alt="desktop"
+          className="lg:w-[600px] lg:h-[690px] "
+        />
         <div className="flex flex-col gap-4 justify-center">
           <p className="font-bold text-xs">Find your class match</p>
           <h1 className=" font-thin text-3xl">
