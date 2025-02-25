@@ -23,7 +23,7 @@ export default function TryApp() {
               New App trials only. $12.99/mo after. Terms apply.
             </p>
           </div>
-          <div className="w-[600px] h-[600px]">
+          <div className="lg:w-[600px] lg:h-[600px] md:w-[300px] md:h-[300px] sm:w-[300px] sm:h-[300px]">
             <Image src={TryTheApp} alt="image" />
           </div>
         </div>
