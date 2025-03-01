@@ -16,7 +16,7 @@ export default function TryApp() {
               Take classes at home, in the gym, or on the <br /> go with no
               equipment needed.
             </p>
-            <a className="w-60 h-10 bg-[#DF1C2F] justify-center items-center flex text-[#FFFFFF] font-bold text-[11px] rounded-md">
+            <a className="w-60 h-12 bg-[#DF1C2F] justify-center items-center flex text-[#FFFFFF] font-bold text-[11px] rounded-md">
               TRY THE APP
             </a>
             <p className="font-light text-[13px] text-[#65666A]">
