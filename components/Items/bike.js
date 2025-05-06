@@ -23,7 +23,7 @@ export default function Comparing() {
   return (
     <main>
       <div className="flex justify-center gap-[20px]">
-        <div className="bg-[url(@/public/pelotonBikeBg.svg)] relative flex items-end w-[580px] h-[900px] rounded-md">
+        <div className="bg-[url('/pelotonBikeBg.svg')] relative flex items-end w-[580px] h-[900px] rounded-md">
           <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
           <div className="absolute flex flex-col gap-4 text-white pl-8 pb-10">
             <p className="font-bold  ">PELOTON BIKE AND BIKE+</p>
