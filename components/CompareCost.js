@@ -8,7 +8,7 @@ export default function CompareCost() {
           <p className="text-white text-[13px] font-bold">
             Compare Peloton to your fitness costs
           </p>
-          <p className="text-white text-[28px] font-light">
+          <p className="text-white text-[28px] text-center font-light">
             How many people in your home would use Peloton?
           </p>
           <div className="flex gap-4">
