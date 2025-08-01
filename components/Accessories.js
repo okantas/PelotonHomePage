@@ -23,7 +23,7 @@ export default function Accessories() {
   ];
   return (
     <main>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:flex gap-10 justify-center items-center  py-14 px-10 lg:px-20 w-full bg-[#F5F7F9]">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:flex gap-10 justify-center items-center  py-14 px-4 lg:px-20 w-full bg-[#F5F7F9]">
         {Pictures.map((picture) => (
           <div
             className=" shadow-black w-36 h-44 rounded-md bg-white"

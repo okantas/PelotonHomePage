@@ -13,14 +13,14 @@ export default function HeroSection() {
         }}
       >
         <div className="absolute inset-0 bg-black opacity-60"></div>
-        <div className="absolute gap-8 flex flex-col h-screen items-start justify-center pl-20">
-          <p className="font-bold text-sm text-white tracking-widest">
+        <div className="absolute gap-8 flex flex-col h-screen items-start justify-center pl-5 lg:pl-20">
+          <p className="font-bold text-xs lg:text-sm text-white tracking-widest">
             $150 OFF PACKAGES
           </p>
-          <h1 className="font-bold text-5xl text-white tracking-widest">
+          <h1 className="font-bold text-2xl lg:text-5xl text-white tracking-widest">
             SPRING TRAINING SAVINGS
           </h1>
-          <p className="text-2xl text-white font-thin w-2/4 tracking-widest">
+          <p className="text-lg lg:text-2xl text-white font-thin w-2/4 tracking-widest">
             Limited-time offer! Build strength this spring with a Peloton Guide
             Package and get $150 off.**
           </p>
