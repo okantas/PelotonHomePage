@@ -134,7 +134,7 @@ export default function Footer() {
         <div id="lastOfFooter">
           <div className="flex gap-5 items-center justify-center tracking-widest">
             <Image alt="Usa" src={UsaIcon} />
-            <p className="text-[12px] font-bold">United States ($ USD)</p>
+            <p className="text-[12px] font-bold">United States ($USD)</p>
           </div>
           <ul className="flex flex-col items-center text-[13px] gap-5 justify-center text-[#181A1D] py-8 md:flex-row ">
             <a href="#">
