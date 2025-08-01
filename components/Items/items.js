@@ -5,7 +5,7 @@ import Others from "./others";
 export default function items() {
   return (
     <>
-      <div className="flex flex-col gap-40 bg-[#F5F7F9] py-28 ">
+      <div className="flex flex-col gap-40 bg-[#F5F7F9] py-10 md:py-28 ">
         <Bike />
         <Others />
       </div>

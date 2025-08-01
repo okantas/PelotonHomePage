@@ -23,19 +23,33 @@ export default function TrainingVideos() {
     { id: 6, name: Boxing, alt: "Boxing" },
   ];
   return (
-    <main className="w-full flex justify-center items-cente">
+    <main className="w-full flex justify-center items-center text-center">
       <Swiper
         modules={[Navigation, Pagination]}
         navigation
         pagination={{ clickable: true }}
         spaceBetween={20}
-        slidesPerView={5}
+        breakpoints={{
+          0: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+          1024: {
+            slidesPerView: 5,
+          },
+        }}
         loop={true}
-        className="mb-12"
+        className="mb-6 md:mb-12"
       >
         {Photos.map((photo) => (
           <SwiperSlide key={photo.id}>
-            <Image src={photo.name} width={280} height={200} alt={photo.alt} />
+            <Image
+              src={photo.name}
+              alt={photo.alt}
+              className="w-[400px] h-[400px] lg:w-[280px] lg:h-[200px]"
+            />
           </SwiperSlide>
         ))}
       </Swiper>
