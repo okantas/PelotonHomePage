@@ -32,7 +32,7 @@ export default function Header() {
         ? "max-h-[500px] opacity-100 scale-y-100"
         : "max-h-0 opacity-0 scale-y-0"
     } 
-    flex flex-col lg:flex-row justify-center w-full mt-2 lg:mt-0 items-end gap-y-4 gap-x-9 font-bold text-white text-sm tracking-widest`}
+    flex flex-col lg:flex-row lg:max-h-full lg:opacity-100 lg:scale-y-100 justify-center w-full mt-2 lg:mt-0 items-end gap-y-4 gap-x-9 font-bold text-white text-sm tracking-widest`}
       >
         <li className="cursor-pointer">Bikes</li>
         <li className="cursor-pointer">Tread</li>
