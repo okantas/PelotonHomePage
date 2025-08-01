@@ -23,11 +23,11 @@ export default function Comparing() {
   return (
     <main>
       <div className="flex flex-col items-center justify-center gap-[20px] xl:flex-row">
-        <div className="bg-[url('/pelotonBikeBg.svg')] relative flex items-end w-[580px] h-[900px] rounded-md">
+        <div className="bg-[url('/pelotonBikeBg.svg')] relative bg-cover flex items-end  w-[400px] h-[600px] md:w-[580px] md:h-[900px] rounded-md">
           <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
           <div className="absolute flex flex-col gap-4 text-white pl-8 pb-10">
             <p className="font-bold  ">PELOTON BIKE AND BIKE+</p>
-            <h1 className="font-thin text-[36px] ">
+            <h1 className="font-thin text-[24px] md:text-[36px] ">
               Switch up your routine <br /> with a variety of workouts
             </h1>
             <a
@@ -44,7 +44,7 @@ export default function Comparing() {
           {BıkeItems.map((items) => (
             <div
               key={items.id}
-              className="flex justify-center items-center bg-[#FFFFFF] relative w-[580px] h-[440px] shadow-[0_32px_52px_-20px_rgba(0,0,0,0.1)] rounded-md "
+              className="flex justify-center items-center bg-[#FFFFFF] relative w-[400px] h-[600px] md:w-[580px] md:h-[440px] shadow-[0_32px_52px_-20px_rgba(0,0,0,0.1)] rounded-md "
             >
               <p className="absolute top-6 left-8 text-[10px] text-[#FFFFFF] font-bold bg-[#D00C2A] px-1 py-[1px] rounded-[4px]">
                 SAVE ON PACKAGES
@@ -52,7 +52,7 @@ export default function Comparing() {
               <div className="w-1/2 flex flex-col justify-center items-center">
                 <Image src={items.photo} alt="Peloton Bike Plus" />
               </div>
-              <div className="w-1/2 flex flex-col gap-2">
+              <div className="w-1/2 flex flex-col gap-2 px-4">
                 <h1 className="text-[28px] pb-3 ">{items.name}</h1>
                 <p className="text-[12px] text-[#65666A]">Starting at</p>
                 <p className="text-[13px] font-bold">{items.price}</p>

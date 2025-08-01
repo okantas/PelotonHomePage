@@ -75,12 +75,14 @@ export default function others() {
         >
           <div
             style={{ backgroundImage: `url(${item.leftPhoto.src})` }}
-            className=" h-[480px] w-[580px] rounded-md"
+            className="w-[400px] h-[480px] md:w-[580px] bg-cover bg-center bg-no-repeat rounded-md"
           >
-            <div className="relative inset-0  h-[480px]  bg-gradient-to-t from-black to-transparent">
+            <div className="relative inset-0  h-[480px]  bg-gradient-to-t pl-3 from-black  to-transparent">
               <div className="flex flex-col justify-end h-[480px] gap-4 text-white  pb-10">
-                <p className="font-bold  ">{item.leftName}</p>
-                <h1 className="font-thin text-[36px] w-2/3 ">{item.message}</h1>
+                <p className="font-bold ">{item.leftName}</p>
+                <h1 className="font-thin text-[24px] md:text-[36px] w-2/3 ">
+                  {item.message}
+                </h1>
                 <a
                   href="https://www.google.com/"
                   target="_blank"
@@ -91,7 +93,7 @@ export default function others() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-center bg-[#FFFFFF] relative w-[580px] h-[480px] shadow-[0_32px_52px_-20px_rgba(0,0,0,0.1)] rounded-md ">
+          <div className="flex justify-center items-center bg-[#FFFFFF] relative w-[400px] h-[480px] md:w-[580px]  shadow-[0_32px_52px_-20px_rgba(0,0,0,0.1)] rounded-md ">
             <p className="absolute top-6 left-8 text-[10px] text-[#FFFFFF] font-bold bg-[#D00C2A] px-1 py-[1px] rounded-[4px]">
               SAVE ON PACKAGES
             </p>

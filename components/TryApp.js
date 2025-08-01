@@ -7,7 +7,7 @@ export default function TryApp() {
     <>
       <div className="flex flex-col justify-center text-center items-center">
         <div className="flex flex-col items-center justify-center gap-40 pt-[120px] md:flex-row">
-          <div className="flex flex-col gap-[15px]">
+          <div className="flex flex-col gap-[15px] justify-center items-center">
             <p className="text-[12px] text-[#181A1D] font-bold">Peloton App</p>
             <p className="text-[28px] text-[#181A1D] font-light">
               Try free for 30 days
@@ -16,7 +16,7 @@ export default function TryApp() {
               Take classes at home, in the gym, or on the <br /> go with no
               equipment needed.
             </p>
-            <a className="w-60 h-12 bg-[#DF1C2F] justify-center items-center flex text-[#FFFFFF] font-bold text-[11px] rounded-md">
+            <a className="w-60 h-12 bg-[#DF1C2F] text-center justify-center items-center flex text-[#FFFFFF] font-bold text-[11px] rounded-md">
               TRY THE APP
             </a>
             <p className="font-light text-[13px] text-[#65666A]">
