@@ -28,15 +28,15 @@ export default function Accessories() {
       <div className="flex gap-10 items-center justify-center py-14 px-20 w-full bg-[#F5F7F9]">
         {Pictures.map((picture) => (
           <div
-            className=" shadow-black  w-36 h-44 rounded-md bg-white"
+            className=" shadow-black h-20 w-20 lg:w-36 lg:h-44 rounded-md bg-white"
             key={picture.id}
           >
             <Image
               src={picture.name}
               alt={picture.alt}
-              className="relative  right-6"
+              className="relative  lg:right-6"
             />
-            <p className="relative right-3 font-bold text-right text-slate-500">
+            <p className="relative lg:right-3 font-bold text-right text-slate-500">
               {picture.text}
             </p>
           </div>
