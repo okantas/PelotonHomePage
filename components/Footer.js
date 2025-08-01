@@ -17,8 +17,8 @@ export default function Footer() {
   return (
     <>
       <div>
-        <div className="flex justify-center gap-[200px] pt-10">
-          <div className="flex text-[14px] gap-[80px]">
+        <div className="flex flex-col items-center justify-center gap-[200px] px-10 pt-10 xl:flex-row ">
+          <div className="flex text-[14px] gap-[30px] lg:gap-[80px] ">
             <div className="flex flex-col gap-[35px]">
               <p>Learn</p>
               <div className="flex flex-col gap-[10px] text-[#65666A]">
@@ -116,7 +116,7 @@ export default function Footer() {
           <p className="text-[13px] font-bold tracking-wide">
             Get The Peloton App
           </p>
-          <div className="flex gap-5">
+          <div className="flex flex-col gap-5 md:flex-row">
             <a href="#">
               <Image alt="AppleStore" src={Apple} />
             </a>
@@ -136,7 +136,7 @@ export default function Footer() {
             <Image alt="Usa" src={UsaIcon} />
             <p className="text-[12px] font-bold">United States ($ USD)</p>
           </div>
-          <ul className="flex text-[13px] gap-5 justify-center text-[#181A1D] py-8">
+          <ul className="flex flex-col items-center text-[13px] gap-5 justify-center text-[#181A1D] py-8 md:flex-row ">
             <a href="#">
               <li>Privacy Policy</li>
             </a>
