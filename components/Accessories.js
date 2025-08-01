@@ -6,7 +6,6 @@ import Bikes from "@/public/bikes.svg";
 import Guide from "@/public/Guide.svg";
 import AppImg from "@/public/app.svg";
 import AccessoriesImg from "@/public/accessories.svg";
-import Apparel from "@/public/Apparel.svg";
 
 export default function Accessories() {
   const Pictures = [
@@ -21,14 +20,13 @@ export default function Accessories() {
       alt: "AccessoriesImg",
       text: "Accessories",
     },
-    { id: 7, name: Apparel, alt: "Apparel", text: "Apparel" },
   ];
   return (
     <main>
-      <div className="flex gap-10 items-center justify-center py-14 px-20 w-full bg-[#F5F7F9]">
+      <div className="grid grid-cols-3 lg:flex gap-10 justify-center items-center  py-14 px-20 w-full bg-[#F5F7F9]">
         {Pictures.map((picture) => (
           <div
-            className=" shadow-black h-20 w-20 lg:w-36 lg:h-44 rounded-md bg-white"
+            className=" shadow-black w-36 h-44 rounded-md bg-white"
             key={picture.id}
           >
             <Image
