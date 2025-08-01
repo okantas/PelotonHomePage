@@ -6,7 +6,7 @@ export default function TryApp() {
   return (
     <>
       <div className="flex flex-col justify-center text-center items-center">
-        <div className="flex items-center justify-center gap-40 pt-[120px]">
+        <div className="flex flex-col items-center justify-center gap-40 pt-[120px] md:flex-row">
           <div className="flex flex-col gap-[15px]">
             <p className="text-[12px] text-[#181A1D] font-bold">Peloton App</p>
             <p className="text-[28px] text-[#181A1D] font-light">
