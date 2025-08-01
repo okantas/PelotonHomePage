@@ -69,13 +69,16 @@ export default function others() {
   return (
     <>
       {Items.map((item) => (
-        <div key={item.id} className="flex justify-center gap-[20px]">
+        <div
+          key={item.id}
+          className="flex flex-col justify-center items-center gap-[20px] xl:flex-row"
+        >
           <div
             style={{ backgroundImage: `url(${item.leftPhoto.src})` }}
             className=" h-[480px] w-[580px] rounded-md"
           >
             <div className="relative inset-0  h-[480px]  bg-gradient-to-t from-black to-transparent">
-              <div className="flex flex-col justify-end h-[480px] gap-4 text-white pl-8 pb-10">
+              <div className="flex flex-col justify-end h-[480px] gap-4 text-white  pb-10">
                 <p className="font-bold  ">{item.leftName}</p>
                 <h1 className="font-thin text-[36px] w-2/3 ">{item.message}</h1>
                 <a
