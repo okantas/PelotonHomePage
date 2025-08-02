@@ -12,7 +12,7 @@ export default function HeroSection() {
           backgroundImage: "url('/HeroImg.svg')",
         }}
       >
-        <div className="absolute inset-0 bg-black opacity-60"></div>
+        <div className="absolute h-screen inset-0 bg-black opacity-60"></div>
         <div className="absolute gap-8 flex flex-col h-screen items-start justify-center pl-5 lg:pl-20">
           <p className="font-bold text-xs lg:text-sm text-white tracking-widest">
             $150 OFF PACKAGES
